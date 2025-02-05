@@ -165,7 +165,7 @@ Bu loyiha MIT litsenziyasi ostida tarqatiladi - batafsil ma'lumot uchun [LICENSE
 
 ## 👥 Mualliflar
 
-- Nodirbek Ruziev - Dastlabki ishlar
+- Nematov Ro'zimuhammad - Dastlabki ishlar
 
 ## 🙏 Minnatdorchilik
 
