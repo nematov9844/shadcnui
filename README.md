@@ -2,7 +2,7 @@
 
 Modern va customizable Next.js UI template, Shadcn UI asosida qurilgan.
 
-![Project Preview](public/preview.png)
+🌐 Demo: [shadcnui-bay.vercel.app](https://shadcnui-bay.vercel.app/)
 
 ## 🚀 Xususiyatlar
 
@@ -12,6 +12,13 @@ Modern va customizable Next.js UI template, Shadcn UI asosida qurilgan.
 - 📱 Responsive dizayn
 - ⚡ Optimal ishlash
 - ♿ Accessibility qo'llab-quvvatlash
+
+### Integratsiyalar
+- 💳 Stripe to'lov tizimi
+- 🔐 NextAuth autentifikatsiya
+- 🗄️ Supabase ma'lumotlar bazasi
+- 📧 Mailgun email xizmati
+- ⚡ NextJS framework
 
 ### Texnik Xususiyatlar
 - 🔄 Server-side rendering
@@ -34,6 +41,26 @@ Modern va customizable Next.js UI template, Shadcn UI asosida qurilgan.
 - [recharts](https://recharts.org/) - Grafiklar
 - [class-variance-authority](https://cva.style/) - Komponent variantlari
 - [clsx](https://github.com/lukeed/clsx) & [tailwind-merge](https://github.com/dcastil/tailwind-merge) - CSS klaslarini boshqarish
+
+## 🎯 Asosiy Komponentlar
+
+### 700+ Tailwind CSS Komponentlar
+- Responsive dizayn
+- Keng komponentlar kutubxonasi
+- Moslashuvchan stillar
+- Cross-browser moslashish
+
+### Statistika va Grafiklar
+- Revenue tracking
+- Subscription analytics
+- Real-time ma'lumotlar
+- Vizual grafiklar
+
+### FAQ va Dokumentatsiya
+- Tez-tez so'raladigan savollar
+- Batafsil qo'llanma
+- API dokumentatsiyasi
+- Rivojlantiruvchi resurslari
 
 ## 🚀 Boshlash
 
@@ -77,23 +104,6 @@ npm start
 └── public/
     └── fonts/         # Lokal shriftlar
 ```
-
-## 🎨 Asosiy Komponentlar
-
-### Theme Provider
-- Dark/Light mode boshqaruvi
-- Global theme context
-- Dinamik rang tizimi
-
-### Theme Buttons
-- Rang tanlash interfeysi
-- Interaktiv UI
-- Real-time rang yangilanishi
-
-### Layout Components
-- Statistika ko'rsatish
-- FAQ accordion
-- Xususiyatlar ro'yxati
 
 ## ⚙️ Customization
 
@@ -155,7 +165,7 @@ Bu loyiha MIT litsenziyasi ostida tarqatiladi - batafsil ma'lumot uchun [LICENSE
 
 ## 👥 Mualliflar
 
-- Sizning Ismingiz - Dastlabki ishlar
+- Nodirbek Ruziev - Dastlabki ishlar
 
 ## 🙏 Minnatdorchilik
 
