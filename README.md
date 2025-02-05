@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shadcn UI Pro Project
 
-## Getting Started
+Modern va customizable Next.js UI template, Shadcn UI asosida qurilgan.
 
-First, run the development server:
+![Project Preview](public/preview.png)
+
+## 🚀 Xususiyatlar
+
+### Asosiy Xususiyatlar
+- 🌓 Dark/Light mode almashtirish
+- 🎨 Dinamik ranglarni sozlash
+- 📱 Responsive dizayn
+- ⚡ Optimal ishlash
+- ♿ Accessibility qo'llab-quvvatlash
+
+### Texnik Xususiyatlar
+- 🔄 Server-side rendering
+- 📊 Interaktiv grafiklar
+- 🎯 TypeScript orqali xavfsizlik
+- 🧩 Modulli arxitektura
+- 🔍 SEO optimizatsiya
+
+## 🛠 Texnologiyalar
+
+### Asosiy Texnologiyalar
+- [Next.js 14](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
+
+### Qo'shimcha Kutubxonalar
+- [next-themes](https://github.com/pacocoursey/next-themes) - Dark/Light mode
+- [lucide-react](https://lucide.dev/) - Ikonlar
+- [recharts](https://recharts.org/) - Grafiklar
+- [class-variance-authority](https://cva.style/) - Komponent variantlari
+- [clsx](https://github.com/lukeed/clsx) & [tailwind-merge](https://github.com/dcastil/tailwind-merge) - CSS klaslarini boshqarish
+
+## 🚀 Boshlash
+
+### O'rnatish
 
 ```bash
+# Loyihani clone qilish
+git clone https://github.com/yourusername/shadcn-ui-pro.git
+
+# Package'larni o'rnatish
+npm install
+
+# Development serverni ishga tushirish
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Development server [http://localhost:3000](http://localhost:3000) portida ishga tushadi.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build & Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Production build yaratish
+npm run build
 
-## Learn More
+# Production serverni ishga tushirish
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Loyiha Strukturasi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+├── app/
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Asosiy sahifa
+│   └── globals.css     # Global stillar
+├── components/
+│   ├── ui/            # Asosiy UI komponentlar
+│   ├── theme-provider.tsx
+│   ├── theme-buttons.tsx
+│   └── ...
+└── public/
+    └── fonts/         # Lokal shriftlar
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Asosiy Komponentlar
 
-## Deploy on Vercel
+### Theme Provider
+- Dark/Light mode boshqaruvi
+- Global theme context
+- Dinamik rang tizimi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Theme Buttons
+- Rang tanlash interfeysi
+- Interaktiv UI
+- Real-time rang yangilanishi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Layout Components
+- Statistika ko'rsatish
+- FAQ accordion
+- Xususiyatlar ro'yxati
+
+## ⚙️ Customization
+
+### Theme Sozlash
+```js
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        // Custom ranglar
+      }
+    }
+  }
+}
+```
+
+### Shrift Integratsiyasi
+```css
+/* globals.css */
+@font-face {
+  font-family: 'Inter';
+  /* Shrift sozlamalari */
+}
+```
+
+## 🔧 Development
+
+### State Management
+- React Context API - global state uchun
+- Local state (useState)
+- CSS custom properties - theme uchun
+
+### Optimizatsiya
+- Server-side rendering
+- Shrift optimizatsiyasi
+- Rasm optimizatsiyasi
+- Code splitting
+
+### Accessibility
+- ARIA attributelari
+- Keyboard navigatsiya
+- Screen reader qo'llab-quvvatlash
+
+## 📚 Qo'shimcha Ma'lumot
+
+Batafsil ma'lumot uchun quyidagi resurslarni ko'ring:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Shadcn UI Documentation](https://ui.shadcn.com/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+
+## 🤝 Hissa Qo'shish
+
+Loyihaga hissa qo'shishni istasangiz, Pull Request yuborishingiz mumkin.
+
+## 📝 Litsenziya
+
+Bu loyiha MIT litsenziyasi ostida tarqatiladi - batafsil ma'lumot uchun [LICENSE](LICENSE) faylini ko'ring.
+
+## 👥 Mualliflar
+
+- Sizning Ismingiz - Dastlabki ishlar
+
+## 🙏 Minnatdorchilik
+
+- [Shadcn](https://twitter.com/shadcn) - Shadcn UI uchun
+- [Vercel](https://vercel.com) - Next.js uchun
+- [Tailwind Labs](https://tailwindcss.com) - Tailwind CSS uchun
